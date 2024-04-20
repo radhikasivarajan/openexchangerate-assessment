@@ -13,4 +13,8 @@ The project follows the standard Java Test framework folder structure. The featu
 assessment. The API endpoint is currently passed as a test input from this feature file. 
 
 The test can be executed either via Terminal/Command Prompt by running the command - 'mvn clean test' or via Junit or Cucumber Run configuration using any standard IDEs. The runner class resides at src/test/java/org/assessment/tests/testrunner.java
+and the test reports are available in 3 different formats in the output folder 'target' as
+JSON = target/cucumber-reports-api/Cucumber.json
+XML = target/cucumber-reports-api/Cucumber.xml
+HTML = target/cucumber-reports-api/report.html
 
