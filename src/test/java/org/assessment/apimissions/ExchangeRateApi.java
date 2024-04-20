@@ -8,6 +8,7 @@ import java.io.File;
 
 public class ExchangeRateApi {
 
+    //Method hits the API endpoint using RestAssured & gets the response
     public Response getRatesForUrl(String url) {
         RestAssured.baseURI=url;
         RequestSpecification httpRequest = RestAssured.given();
